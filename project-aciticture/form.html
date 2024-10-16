@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid" style="height: 100vh;">
+        <div class="row ">
+            <div class="col-3" style="height: 100vh;">
+                <div class="container bg-dark" style="height: 100vh;">
+
+                </div>
+            </div>
+
+            <div class="col-9" style="height: 100vh;">
+                <div class="container bg-light" >
+                    <form action="" method="post" enctype="multipart/form-data">
+
+                        <div class="mb-3">
+                            <!-- for ku va ng id -->
+                            <label for="username" class="form-label">Email address</label>
+                            <input name="username" type="email" class="form-control" id="username" placeholder="name@example.com">
+                        </div>
+                        <div class="me-3">
+                            <label for="pass">password</label>
+                            <input type="password" id="pass" name="pass" class="form-control">
+                        </div>
+                        <div class="me-3">
+                            <label for="pass">thumbnil</label>
+                            <input type="file" id="thumbnil" name="thumbnil" class="form-control">
+                        </div>
+                        <div class="me-3">
+                            <label for="Description">Description</label>
+                            <!-- <input type="Description"  id="Description" name="Description" class="form-control"> -->
+                            <textarea name="Description" rows="4" id="Description" class="form-control"></textarea>
+                        </div>
+                        <div class="my-1">
+                            <button class="btn btn-primary">submite</button>
+                            <button class="btn btn-danger">Close</button>
+                        </div>
+                          
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</html>

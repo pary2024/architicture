@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    gap:1rem ;
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 600px;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.column-img{
+    object-fit: cover;
+}
+.font-robato{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card img{
+    height: 250px;
+    width: 390px;
+    object-fit: cover;
+}
+.coloumn-img img{
+    object-fit: cover;
+}
+
+.icon-contact i{
+    /* position: absolute; */
+    font-size: 40px;
+    margin-left: 90px;
+    top: 40px;
+}
+.icon-contact i:nth-child(1):hover{
+    color: blue;
+    
+}
+.icon-contact i:nth-child(2):hover{
+    color: blue;
+    
+}
+.icon-contact i:nth-child(3):hover{
+    color:green;
+    
+}
+.icon-contact i:nth-child(4):hover{
+    color: rgb(0, 110, 255);
+    
+}
+.icon-contact i:nth-child(5):hover{
+    color: orangered;
+    
+}
+.icon-contact i:nth-child(6):hover{
+    color:red;
+    
+}
+.icon-contact i:nth-child(7):hover{
+    color:rgb(109, 35, 13);
+    
+}
+.icon-contact i:nth-child(8):hover{
+    color:rgb(0, 162, 255);
+    
+}
+@media screen and (max-width:760px) {
+    .card_coding{
+        width: 100%;
+    }
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
